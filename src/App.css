@@ -1,0 +1,456 @@
+/*------style page login and register-----*/
+body {
+  font-family: Rajdhani;
+  color: black;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: rgb(245, 247, 248);
+
+  /* background-color: rgb(83, 151, 211); */
+}
+.top-container {
+  background-color: #3d3636;
+  text-align: center;
+}
+
+.header {
+  padding: 10px 16px;
+  background: rgb(29, 26, 26);
+  color: #f1f1f1;
+  z-index: 1;
+}
+.search-form {
+  padding: 10px 16px;
+}
+.navbar-custom {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+}
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+/* 
+.header{
+  width: 100%;
+
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+} */
+/* .footer{
+  position: static;
+  width: 100%;
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+} */
+
+.form-group select option {
+  color: #fff;
+}
+.form-bistkey .form-subscribe button {
+  padding-bottom: 8px;
+  padding-top: 10px;
+}
+.form-bistkey .full-width-btn {
+  display: block;
+  width: 100%;
+}
+.form-subscribe button:hover {
+  background: #af4220;
+}
+.main-conten-text a:hover {
+  color: #0077e2;
+  text-decoration: none;
+}
+.margin-top-15 {
+  margin-top: 15px;
+}
+.margin-top-35 {
+  margin-top: 35px;
+}
+.color-orange {
+  color: #ff683a;
+}
+.form-subscribe button {
+  background: #006eed;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 13px 29px;
+  line-height: 16px;
+  padding-top: 15px;
+}
+.form-bistkey .form-subscribe .form-control {
+  background-color: rgba(70, 88, 108, 0.5);
+  border: none;
+  border-radius: 4px;
+  width: 100%;
+  padding: 12px 15px;
+  line-height: 16px;
+  padding-top: 13px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #a1b0c2;
+  min-height: 46px;
+}
+.form-bistkey .form-subscribe label {
+  font-size: 12px;
+  font-weight: 600;
+}
+.form-subscribe .form-control::placeholder {
+  color: #788995;
+}
+.form-subscribe .form-control:-ms-input-placeholder {
+  color: #788995;
+}
+.form-subscribe .form-control::-ms-input-placeholder {
+  color: #788995;
+}
+
+.ticket-submit {
+  float: right;
+  width: 70%;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.2em;
+  padding-top: 16px;
+  text-transform: uppercase;
+  margin: 20px 0 50px 0;
+}
+.login-submit {
+  overflow: hidden;
+  width: 100%;
+}
+.sub-account {
+  width: 50%;
+  float: left;
+  font-size: 12px;
+  font-weight: 600;
+  margin-top: 1em;
+}
+.sub-login {
+  float: right;
+  width: 40%;
+}
+.social-fb {
+  font-size: 12px;
+  font-weight: 600;
+  text-align: center;
+}
+.sub-fb {
+  width: 100%;
+}
+.sub-account a {
+  color: #ff683a;
+  text-decoration: underline;
+}
+.custom-checkbox label.custom-control-label {
+  padding-top: 3px;
+  cursor: pointer;
+}
+.form-bistkey .form-subscribe label {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .margin-top-35 {
+    margin-top: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .margin-top-35 {
+    margin-top: 15px;
+  }
+}
+@media (max-width: 480px) {
+  .sub-account {
+    margin-top: 0;
+  }
+}
+@media (min-width: 768px) {
+  .login-content-page {
+    max-width: 420px;
+    margin: 0 auto;
+  }
+  .sign-up-content-page {
+    max-width: 440px;
+    margin: 0 auto;
+  }
+}
+
+.sign-up-content-page {
+  color: #a1b0c2;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: #0d1725;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.login-content-page {
+  color: #a1b0c2;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: #0d1725;
+  padding-top: 30px;
+  padding-bottom: 200px;
+}
+.login-page-content {
+  height: auto;
+  background-color: #0d1725;
+}
+/* Course css */
+.course-content {
+  background-color: #f5f7e0;
+}
+
+.card-img-img {
+  height: 350px;
+  width: 350px;
+}
+.card-img-body {
+  height: auto;
+  width: 350px;
+}
+.card-img-footer {
+  height: auto;
+  width: 350px;
+}
+.course-row {
+  border: #006eed;
+  padding: 10px 10px 10px 10px;
+}
+.course-card {
+  width: 100%;
+  border: 8px;
+  padding: 10px 10px 10px 10px;
+}
+.course-card-title {
+  color: #115c66;
+  font-family: "Trocchi", serif;
+  font-size: 35px;
+  font-weight: bold;
+  line-height: 48px;
+  margin: 0;
+}
+.course-section-card-button {
+  height: 100%;
+  width: 100%;
+  border: aliceblue;
+  background-color: whitesmoke;
+}
+.course-name {
+  color: black;
+  font-family: "Trocchi", serif;
+  font-size: 35px;
+  font-weight: bold;
+  line-height: 48px;
+  margin: 0;
+}
+.course-title {
+  color: black;
+  font-size: 20px;
+  margin: 0;
+}
+.course-rating {
+  color: yellowgreen;
+}
+
+/* profile */
+.profile-card {
+  width: 100%;
+  border: 8px;
+  padding: 10px 10px 10px 10px;
+}
+.profile-image {
+  margin-left: 50px;
+  margin-top: 50px;
+}
+.save-change-btn {
+  padding: 10px 10px 10px 10px;
+}
+.profile-info-row {
+  padding: 10px 10px 10px 10px;
+}
+
+.dashboard-content {
+  min-height: 600px;
+  background-color: #f5f7e0;
+  padding: 10px 10px 10px 10px;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.cart-nav {
+  position: relative;
+}
+
+.cart-nav .frame-cart {
+  display: none;
+  position: absolute;
+  border: 1px solid #000;
+  box-shadow: 5px 10px 18px #888888;
+  top: 100%;
+  right: 0;
+}
+
+.cart-nav:hover .frame-cart {
+  display: block;
+}
+
+.watch-nav {
+  position: relative;
+}
+
+.watch-nav .frame-watch {
+  display: none;
+  border: 1px solid #000;
+  box-shadow: 5px 10px 18px #888888;
+  position: absolute;
+  top: 100%;
+  right: 0;
+}
+
+.watch-nav:hover .frame-watch {
+  display: block;
+}
+
+.form-wh {
+  max-height: 24em;
+  min-width: 26.5em;
+}
+
+.form-wh .top {
+  height: 2em;
+  width: 100%;
+  padding: 10px;
+  color: #000000ad;
+}
+
+.form-wh .content {
+  max-height: 18.5em;
+  width: 100%;
+  overflow-y: auto;
+  padding: 0;
+}
+
+.form-wh .footer {
+  display: flex;
+  justify-content: space-between;
+  height: 3.5em;
+  width: 100%;
+  padding: 10px;
+  color: #000000ad;
+}
+
+.arrow-up {
+  position: absolute;
+  top: -5px;
+  right: 10px;
+  width: 15px;
+  height: 5px;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid #fff;
+}
+
+.heart_hv:hover {
+  width: 25px;
+}
+
+.badge-rating {
+  padding-right: 50px;
+}
+
+.course-item-frame {
+  position: relative;
+}
+
+.course-item-frame .frame {
+  display: none;
+  position: absolute;
+  border: 1px solid #000;
+  box-shadow: 20px 10px 10px #888888;
+  top: 50%;
+  right: 100%;
+}
+
+.course-item-frame:hover .frame {
+  display: block;
+}
+
+.course-item-addcart-row {
+  z-index: 3;
+  pointer-events: stroke;
+}
+
+.slidesh {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

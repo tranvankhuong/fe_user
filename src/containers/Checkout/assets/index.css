@@ -1,0 +1,581 @@
+@font-face {font-family: "TitilliumWeb-Regular";
+    src: url("../assets/fonts/TitilliumWeb-Regular/TitilliumWeb-Regular.eot");
+    src: url("../assets/fonts/TitilliumWeb-Regular/TitilliumWeb-Regular.eot?#iefix") format("embedded-opentype"),
+        url("../assets/fonts/TitilliumWeb-Regular/TitilliumWeb-Regular.woff") format("woff"),
+        url("../assets/fonts/TitilliumWeb-Regular/TitilliumWeb-Regular.ttf") format("truetype"),
+        url("../assets/fonts/TitilliumWeb-Regular/TitilliumWeb-Regular.svg#TitilliumWeb-Regular") format("svg");
+}
+@font-face {font-family: "TitilliumWeb-Bold";
+    src: url("../assets/fonts/TitilliumWeb-Bold/TitilliumWeb-Bold.eot");
+    src: url("../assets/fonts/TitilliumWeb-Bold/TitilliumWeb-Bold.eot?#iefix") format("embedded-opentype"),
+        url("../assets/fonts/TitilliumWeb-Bold/TitilliumWeb-Bold.woff") format("woff"),
+        url("../assets/fonts/TitilliumWeb-Bold/TitilliumWeb-Bold.ttf") format("truetype"),
+        url("../assets/fonts/TitilliumWeb-Bold/TitilliumWeb-Bold.svg#TitilliumWeb-Bold") format("svg");
+}
+@font-face {font-family: "TitilliumWeb-Light";
+    src: url("../assets/fonts/TitilliumWeb-Light/TitilliumWeb-Light.eot");
+    src: url("../assets/fonts/TitilliumWeb-Light/TitilliumWeb-Light.eot?#iefix") format("embedded-opentype"),
+        url("../assets/fonts/TitilliumWeb-Light/TitilliumWeb-Light.woff") format("woff"),
+        url("../assets/fonts/TitilliumWeb-Light/TitilliumWeb-Light.ttf") format("truetype"),
+        url("../assets/fonts/TitilliumWeb-Light/TitilliumWeb-Light.svg#TitilliumWeb-Light") format("svg");
+}
+@font-face {font-family: "TitilliumWeb-Black";
+    src: url("../assets/fonts/TitilliumWeb-Black/TitilliumWeb-Black.eot");
+    src: url("../assets/fonts/TitilliumWeb-Black/TitilliumWeb-Black.eot?#iefix") format("embedded-opentype"),
+        url("../assets/fonts/TitilliumWeb-Black/TitilliumWeb-Black.woff") format("woff"),
+        url("../assets/fonts/TitilliumWeb-Black/TitilliumWeb-Black.ttf") format("truetype"),
+        url("../assets/fonts/TitilliumWeb-Black/TitilliumWeb-Black.svg#TitilliumWeb-Black") format("svg");
+}
+@font-face {font-family: "TitilliumWeb-Italic";
+    src: url("../assets/fonts/TitilliumWeb-Italic/TitilliumWeb-Italic.eot");
+    src: url("../assets/fonts/TitilliumWeb-Italic/TitilliumWeb-Italic.eot?#iefix") format("embedded-opentype"),
+        url("../assets/fonts/TitilliumWeb-Italic/TitilliumWeb-Italic.woff") format("woff"),
+        url("../assets/fonts/TitilliumWeb-Italic/TitilliumWeb-Italic.ttf") format("truetype"),
+        url("../assets/fonts/TitilliumWeb-Italic/TitilliumWeb-Italic.svg#TitilliumWeb-Italic") format("svg");
+}
+@font-face {font-family: "TitilliumWeb-BoldItalic";
+    src: url("../assets/fonts/TitilliumWeb-BoldItalic/TitilliumWeb-BoldItalic.eot");
+    src: url("../assets/fonts/TitilliumWeb-BoldItalic/TitilliumWeb-BoldItalic.eot?#iefix") format("embedded-opentype"),
+        url("../assets/fonts/TitilliumWeb-BoldItalic/TitilliumWeb-BoldItalic.woff") format("woff"),
+        url("../assets/fonts/TitilliumWeb-BoldItalic/TitilliumWeb-BoldItalic.ttf") format("truetype"),
+        url("../assets/fonts/TitilliumWeb-BoldItalic/TitilliumWeb-BoldItalic.svg#TitilliumWeb-BoldItalic") format("svg");
+}
+@font-face {font-family: "TitilliumWeb-SemiBold";
+    src: url("../assets/fonts/TitilliumWeb-SemiBold/TitilliumWeb-SemiBold.eot");
+    src: url("../assets/fonts/TitilliumWeb-SemiBold/TitilliumWeb-SemiBold.eot?#iefix") format("embedded-opentype"),
+        url("../assets/fonts/TitilliumWeb-SemiBold/TitilliumWeb-SemiBold.woff") format("woff"),
+        url("../assets/fonts/TitilliumWeb-SemiBold/TitilliumWeb-SemiBold.ttf") format("truetype"),
+        url("../assets/fonts/TitilliumWeb-SemiBold/TitilliumWeb-SemiBold.svg#TitilliumWeb-SemiBold") format("svg");
+}
+@font-face {font-family: "TitilliumWeb-SemiBoldItalic";
+    src: url("../assets/fonts/TitilliumWeb-SemiBoldItalic/TitilliumWeb-SemiBoldItalic.eot");
+    src: url("../assets/fonts/TitilliumWeb-SemiBoldItalic/TitilliumWeb-SemiBoldItalic.eot?#iefix") format("embedded-opentype"),
+        url("../assets/fonts/TitilliumWeb-SemiBoldItalic/TitilliumWeb-SemiBoldItalic.woff") format("woff"),
+        url("../assets/fonts/TitilliumWeb-SemiBoldItalic/TitilliumWeb-SemiBoldItalic.ttf") format("truetype"),
+        url("../assets/fonts/TitilliumWeb-SemiBoldItalic/TitilliumWeb-SemiBoldItalic.svg#TitilliumWeb-SemiBoldItalic") format("svg");
+}
+@font-face {font-family: "TitilliumWeb-LightItalic";
+    src: url("../assets/fonts/TitilliumWeb-LightItalic/TitilliumWeb-LightItalic.eot");
+    src: url("../assets/fonts/TitilliumWeb-LightItalic/TitilliumWeb-LightItalic.eot?#iefix") format("embedded-opentype"),
+        url("../assets/fonts/TitilliumWeb-LightItalic/TitilliumWeb-LightItalic.woff") format("woff"),
+        url("../assets/fonts/TitilliumWeb-LightItalic/TitilliumWeb-LightItalic.ttf") format("truetype"),
+        url("../assets/fonts/TitilliumWeb-LightItalic/TitilliumWeb-LightItalic.svg#TitilliumWeb-LightItalic") format("svg");
+}
+
+.font-black {
+    font-family: "TitilliumWeb-Black";
+    font-weight: normal;
+}
+.font-bold {
+    font-family: "TitilliumWeb-Bold";
+    font-weight: normal;
+}
+.font-semi {
+    font-family: "TitilliumWeb-SemiBold";
+    font-weight: normal;
+}
+.font-light {
+    font-family: "TitilliumWeb-Light";
+    font-weight: normal;
+}
+
+.font-ita {
+    font-family: "TitilliumWeb-Italic";
+    font-weight: normal;
+}
+.font-ita-bold {
+    font-family: "TitilliumWeb-BoldItalic";
+    font-weight: normal;
+}
+.font-semi-ita {
+    font-family: "TitilliumWeb-SemiBoldItalic";
+    font-weight: normal;
+}
+
+.font-light-ita {
+    font-family: "TitilliumWeb-LightItalic";
+    font-weight: normal;
+}
+.padding-top-60 {
+    padding-top: 60px;
+}
+.color-blue, .color-blue p, .color-blue a, .color-blue span, .color-blue strong {
+    color: #151635;
+}
+.font-bold {
+    font-family: "TitilliumWeb-Bold";
+    font-weight: normal;
+}
+.color-blue-light, .color-blue-light p, .color-blue-light a, .color-blue-light span, .color-blue-light strong {
+    color: #4f5060;
+}
+.color-orange, .color-orange p, .color-orange a, a.color-orange, .color-orange span, .color-orange strong {
+    color: #ed682e;
+}
+.font-14, .font-14 p, .font-14 a, .font-14 span, .font-14 strong {
+    font-size: 14px;
+    line-height: 26px;
+}
+.font-19, .font-19 p, .font-19 a, .font-19 span, .font-19 strong {
+    font-size: 19px;
+    line-height: 1.3em;
+}
+
+.font-34, .font-34 p, .font-34 a, .font-34 span, .font-34 strong {
+    font-size: 34px;
+    line-height: 1.3em;
+}
+
+.box-cart-page {
+    padding: 30px;
+    border-radius: 4px;
+    padding-top: 15px;
+    overflow: hidden;
+}
+.content_page_checkout .box-cart-page {
+    border-radius: 6px 6px 0 0;
+}
+.row-total-cart-table {
+    overflow: hidden;
+    padding: 20px 30px;
+    background: #f0ecf7;
+    border-radius: 0px 0px 6px 6px;
+}
+
+a {
+    color: #fff;
+}
+.img-product-item-cart {
+    position: relative;
+    width: 59px;
+    background-color: #0d1725;
+    display: inline-block;
+    vertical-align: top;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    height: 100%;
+    transition: transform .3s ease,opacity .3s;
+    transition-timing-function: cubic-bezier(.39,.76,.51,.56);
+}
+.img-product-item-cart:before {
+    display: block;
+    content: "";
+    width: 100%;
+    padding-top: 130%;
+    background: 0 0!important;
+    box-shadow: none!important;
+}
+.title-product-item-product-cart {
+    display: inline-block;
+    width: calc(100% - 70px);
+    padding-left: 20px;
+    padding-top: 8px;
+}
+.title-product-item-product-cart a {
+    position: relative;
+}
+.title-product-item-product-cart a:hover {
+    text-decoration: none;
+    color: #ed682e;
+}
+.title-product-item-product-cart .quantity-item-checkout-table {
+    display: block;
+    color: rgba(59, 61, 83, 0.7);
+    font-size: 14px;
+    font-family: "TitilliumWeb-Regular";
+    margin-top: 5px;
+}
+.table-checkout-page .title-product-item-product-cart .category-item-table {
+    margin-top: 0px;
+}
+.btn {
+    overflow: hidden;
+    position: relative;
+    z-index: 0;
+}
+.btn {
+    max-width: 100%;
+}
+.btn:before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    left: -35%;
+    top: 0;
+    transform: skew(50deg);
+    -webkit-transform: skew(50deg);
+    -moz-transform: skew(50deg);
+    -ms-transform: skew(50deg);
+    transition-duration: 0.6s;
+    transform-origin: top left;
+    width: 0;
+    z-index: -1;
+}
+
+p:last-child {
+    margin-bottom: 0px;
+}
+.btn:hover:before {
+    width: 135%;
+}
+.bottom-infor-cart {
+    float: right;
+    padding-left: 0px;
+    padding-right: 0px;
+    overflow: hidden;
+}
+.row-total-cart-table .sub-total-table {
+    text-align: right;
+    overflow: hidden;
+}
+.row-total-cart-table .sub-total-table h2 {
+    display: inline-block;
+    margin-bottom: 0px;
+}
+.row-total-cart-table .sub-total-table .value-total-checkout {
+    min-width: 120px;
+}
+
+.table-default-page .table-cart th {
+    border: none;
+}
+.table-default-page .table-cart tbody tr {
+    border-top: 1px solid #d9dae8;
+    display: table-row;
+}
+.table-default-page .table-cart td {
+    vertical-align: middle;
+    border: none;
+}
+.table-default-page .table-cart .item-product-table {
+    width: 70%;
+}
+td.item-product-table, th.th-item-cart {
+    padding-left: 0px !important;
+}
+td.price-item-cart, th.th-price-item-cart {
+    padding-right: 0px !important;
+}
+.form-counpon-box .txt-coupon-form {
+    margin-right: 15px;
+    display: inline-block;
+    float: left;
+    margin-top: 5px;
+}
+.form-counpon-box .form-inline .form-group {
+    width: 100%;
+}
+.form-counpon-box .form-inline .form-control {
+    width: 100%;
+    background: #f7f5fb;
+    border-radius: 20px;
+    border: none;
+    padding: 7px 20px;
+    padding-right: 100px;
+    outline: none;
+    font-size: 13px;
+    min-height: 38px;
+}
+.form-counpon-box .btn-primary {
+    position: absolute;
+    right: 4px;
+    font-size: 14px;
+    height: 30px;
+    line-height: 12px;
+    width: 90px;
+    padding: 5px;
+    font-family: "TitilliumWeb-Bold";
+    border-radius: 15px;
+    background: #50ad49;
+    border: none;
+}
+.title-product-item-product-cart .category-item-table {
+    display: block;
+    color: rgba(59, 61, 83, 0.7);
+    font-size: 12px;
+    font-family: "TitilliumWeb-Regular";
+    margin-top: 5px;
+}
+.form-counpon-box .form-inline .form-control:focus {
+    box-shadow: none;
+}
+
+.padding-40 {
+    padding: 40px;
+}
+box-payment-checkout {
+    border-radius: 6px;
+    margin-top: 10px;
+}
+.row-detail-payment-content {
+    border-bottom: 1px solid #ebebed;
+    border-right: 1px solid #ebebed;
+}
+.row-detail-payment-content:last-child {
+    border-right: none;
+}
+.payment-choose:last-child .row-detail-payment-content {
+    border-bottom: none;
+}
+.des-payment-choose {
+    color: rgba(21,22, 53, 0.6);
+    margin-top: 40px;
+}
+.des-payment-choose p {
+    line-height: 20px;
+}
+.custom-control.custom-checkbox-payment {
+    padding-left: 0px;
+}
+.custom-control-label {
+    position: relative;
+    margin-bottom: 0;
+}
+.custom-checkbox-payment .custom-control-label {
+    width: 100%;
+    background-color: inherit;
+    display: block;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: auto;
+    -webkit-background-size: auto;
+    -moz-background-size: auto;
+    -o-background-size: auto;
+    height: 100%;
+    transition: transform .3s ease,opacity .3s;
+    transition-timing-function: cubic-bezier(.39,.76,.51,.56);
+    margin-bottom: 0px;
+    min-height: 90px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.custom-control-label::before {
+    position: absolute;
+    top: 0;
+    left: -1.5rem;
+    display: block;
+    width: 1rem;
+    height: 1rem;
+    pointer-events: none;
+    content: "";
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: #151635;
+}
+.payment-radio .custom-control-label::before {
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    display: block;
+    width: 16px;
+    height: 16px;
+    pointer-events: none;
+    content: "";
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background: none;
+    top: auto;
+    margin-left: -8px;
+    border-radius: 50%;
+    border: 2px solid #404258;
+}
+.custom-control-label::after {
+    position: absolute;
+    top: 0;
+    left: -1.5rem;
+    display: block;
+    width: 1rem;
+    height: 1rem;
+    content: "";
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 50% 50%;
+}
+.payment-radio .custom-control-label::after {
+    opacity: 0;
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    display: block;
+    width: 6px;
+    height: 6px;
+    pointer-events: none;
+    content: "";
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background: none;
+    top: auto;
+    margin-left: -3px;
+    background: #ed682e;
+    border-radius: 50%;
+}
+.payment-radio .custom-control-input:checked~.custom-control-label::before {
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    display: block;
+    width: 16px;
+    height: 16px;
+    pointer-events: none;
+    content: "";
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background: none;
+    top: auto;
+    margin-left: -8px;
+    border-radius: 50%;
+    border: 2px solid #ed682e;
+}
+.payment-radio .custom-control-input:checked~.custom-control-label::after {
+    opacity: 1;
+}
+.agreen-order-checkout a {
+    text-decoration: underline;
+}
+.agreen-order-checkout a:hover, .agreen-order-checkout a:focus {
+    text-decoration: none;
+    color: #151635;
+}
+.btn-order-checkout .btn {
+    height: 60px;
+    font-size: 25px;
+    line-height: 32px;
+    color: #fff;
+    font-family: "TitilliumWeb-Bold";
+    padding: 12px 80px;
+    text-align: center;
+    border-radius: 30px;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+}
+
+
+@media (max-width: 991px){
+    .table-default-page .table-cart th.th-price-item-cart {
+        min-width: 100px;
+    }
+    .table-default-page .table-cart th.th-item-cart {
+        min-width: 300px;
+    }
+    .table-default-page .table-cart th.th-price-item-cart {
+        min-width: 100px;
+    }
+    .box-cart-page {
+        padding: 15px;
+        padding-top: 0;
+    }
+    .table-default-page .table-cart th.th-number-cart {
+        min-width: 90px!important;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px){
+    .padding-40 {
+        padding: 25px;
+    }
+}
+@media (max-width: 767px) {
+    .padding-top-60 {
+        padding-top: 30px;
+    }
+    .font-33, .font-33 p, .font-33 a, .font-33 span, .font-33 strong {
+        font-size: 30px;
+        line-height: 1.3em;
+    }
+    .font-19, .font-19 p, .font-19 a, .font-19 span, .font-19 strong {
+        font-size: 17px;
+    }
+    .font-24, .font-24 p, .font-24 a, .font-24 span, .font-24 strong {
+        font-size: 20px;
+    }
+    .table-default-page .table-cart td {
+        display: table-cell !important;
+        background: none !important;
+    }
+    .table-default-page .table-cart .item-product-table {
+        display: table-cell !important;
+        text-align: left !important;
+    }
+    .quantity-product-table .txt-quantity-table {
+        padding-right: 0px;
+        float: none;
+        margin-top: 0px;
+        width: 100%;
+        text-align: center;
+        display: block;
+    }
+    .row-total-cart-table {
+        padding: 15px;
+    }
+    .font-34, .font-34 p, .font-34 a, .font-34 span, .font-34 strong {
+        font-size: 30px;
+    }
+    .padding-40 {
+        padding: 20px;
+    }
+    .row-detail-payment-content {
+        border-bottom: 1px solid #ebebed;
+    }
+    .payment-choose:last-child .row-detail-payment-content {
+        border-bottom: 1px solid #ebebed;
+    }
+    .des-payment-choose {
+        margin-top: 20px;
+    }
+    .box-btn-checkout {
+        margin-top: 15px;
+    }
+    .btn-order-checkout .btn {
+        height: 40px;
+        font-size: 16px;
+        line-height: 16px;
+        padding: 12px 30px;
+    }
+}
+@media (max-width: 575px){
+    .form-counpon-box .txt-coupon-form {
+        margin-right: 0px;
+        display: block;
+        float: none;
+        margin-bottom: 15px;
+        width: 100%;
+    }
+    .form-counpon-box .form-inline .form-group {
+        margin-bottom: 0px;
+    }
+}
+@media (min-width: 480px) and (max-width: 767px){
+    .row-detail-payment-content {
+        -ms-flex: 0 0 33%;
+        flex: 0 0 33%;
+        max-width: 33%;
+    }
+}
+@media (max-width: 480px){
+    .main-payment-choose .row-detail-payment-content {
+        border-right: none;
+    }
+    .main-payment-choose .row-detail-payment-content {
+        border-right: none;
+    }
+    .main-payment-choose .row-detail-payment-content {
+        border-right: none;
+    }
+    
+}
